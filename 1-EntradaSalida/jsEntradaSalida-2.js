@@ -2,6 +2,7 @@
 y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-	
+    prompt("Mi gata","es Titina");
+    alert("Hasta luego");
 }
 
