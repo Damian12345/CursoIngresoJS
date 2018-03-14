@@ -6,10 +6,11 @@ function SacarResto()
 {
 	var num1;
     var num2;
+    var divi;
     num1 = document.getElementById("numeroDividendo").value;
     num2 = document.getElementById("numeroDivisor").value;
     num1 = parseInt(num1);
     num2 = parseInt(num2);
-    num1 = num1 % num2;
-    alert("El resto es " + num1 );
+    divi = num1 % num2;
+    alert("El resto es " + divi );
 }

@@ -6,47 +6,51 @@ function sumar()
 {	
 	var num1;
     var num2;
+    var suma;
     num1 = document.getElementById("numeroUno").value;
     num2 = document.getElementById("numeroDos").value;
     num1 = parseInt(num1);
     num2 = parseInt(num2);
-    num1 = num1 + num2;
-    alert("la suma es " + num1 );
+    suma = num1 + num2;
+    alert("la suma es " + suma );
 }
 
 function restar()
 {
 	var num1;
     var num2;
+    var resta;
     num1 = document.getElementById("numeroUno").value;
     num2 = document.getElementById("numeroDos").value;
     num1 = parseInt(num1);
     num2 = parseInt(num2);
-    num1 = num1 - num2;
-    alert("la resta es " + num1 );
+    resta = num1 - num2;
+    alert("la resta es " + resta );
 }
 
 function multiplicar()
 { 
 	var num1;
     var num2;
+    var multi;
     num1 = document.getElementById("numeroUno").value;
     num2 = document.getElementById("numeroDos").value;
     num1 = parseInt(num1);
     num2 = parseInt(num2);
-    num1 = num1 * num2;
-    alert("la multiplicacion es " + num1 );
+    multi = num1 * num2;
+    alert("la multiplicacion es " + multi );
 }
 
 function dividir()
 {
     var num1;
     var num2;
+    var divi;
     num1 = document.getElementById("numeroUno").value;
     num2 = document.getElementById("numeroDos").value;
     num1 = parseInt(num1);
     num2 = parseInt(num2);
-    num1 = num1 / num2;
-    alert("la divicion es " + num1 );
+    divi = num1 / num2;
+    alert("la divicion es " + divi );
 }
 
